@@ -9,6 +9,7 @@ import {
 	ForEach,
 	Label,
   Image,
+  Spacer,
 } from "swiftui-react-native";
 import { toWords } from "../utils";
 
@@ -24,11 +25,13 @@ export const ColorSection = () => {
 						title={toWords(color)}
 						icon={<Swatch color={color as UIColor} />}
 					/>
+          <Spacer/>
           <Image
           fontWeight="bold"
             systemName={'chevron.right'}
             foregroundColor={'systemGray2'}
             fontSize={12}
+            style={{marginRight: 10}}
           />
           </HStack>
 				))}

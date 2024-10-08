@@ -12,7 +12,7 @@ export const ButtonSection = () => {
   const showAlert = useBinding(false);
   return (
     <List
-      inset
+    inset
       header="Buttons"
       alert={{
         isPresented: showAlert,

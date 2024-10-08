@@ -17,7 +17,7 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.alevy97.suirn-test-expo",
+      "bundleIdentifier": "co.swiftui.test",
       "userInterfaceStyle": "automatic"
     },
     "android": {

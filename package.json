@@ -8,15 +8,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~47.0.12",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-native": "0.70.10",
+    "expo": "^52.0.0-canary-20240927-ab8a962",
+    "expo-splash-screen": "1.0.0-canary-20240927-ab8a962",
+    "expo-status-bar": "1.12.2-canary-20240927-ab8a962",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.75.2",
     "react-native-sfsymbols": "^1.2.1",
-    "react-native-web": "~0.18.9",
-    "swiftui-react-native": "4.4.0",
-    "expo-splash-screen": "~0.17.5"
+    "react-native-web": "~0.19.10",
+    "swiftui-react-native": "4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

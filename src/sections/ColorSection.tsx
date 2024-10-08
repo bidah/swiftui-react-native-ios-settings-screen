@@ -10,17 +10,21 @@ import {
 	Label,
   Image,
   Spacer,
+  Rectangle,
 } from "swiftui-react-native";
 import { toWords } from "../utils";
+import { View } from "react-native";
 
 export const ColorSection = () => {
 	const UIColors = useUIColor();
 	return (
 		<>
-			<List inset header="testing">
+			<List inset header="testing" style={{paddingLeft: 30}}>
 				{ForEach(Object.keys(UIColors), (color, i) => (
+          <>
           <HStack>
 					<Label
+          style={{marginLeft: -40}}
 						key={i}
 						title={toWords(color)}
 						icon={<Swatch color={color as UIColor} />}
@@ -29,11 +33,13 @@ export const ColorSection = () => {
           <Image
           fontWeight="bold"
             systemName={'chevron.right'}
-            foregroundColor={'systemGray2'}
+            foregroundColor={'systemGray4'}
             fontSize={12}
-            style={{marginRight: 10}}
+            style={{marginRight: 5}}
           />
           </HStack>
+                    {/* <Rectangle fill="red" frame={{ width: '100%', height: 1 }} style={{marginLeft: 10}} /> */}
+                    </>
 				))}
 			</List>
 		</>
@@ -43,7 +49,7 @@ export const ColorSection = () => {
 const Swatch = ({ color }: { color: UIColor }) => {
 	return (
 		<VStack
-			frame={{ width: 26, height: 26 }}
+			frame={{ width: 26, height: 26, marginRight: 5 }}
 			cornerRadius={6}
 			// border={{ width: 1, color: "systemGray5" }}
 			backgroundColor={color}

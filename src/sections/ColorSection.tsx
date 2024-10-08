@@ -19,7 +19,7 @@ export const ColorSection = () => {
 	const UIColors = useUIColor();
 	return (
 		<>
-			<List inset header="testing" style={{paddingLeft: 30}}>
+			<List inset header="testing" style={{paddingLeft: 30}} hideSeparators>
 				{ForEach(Object.keys(UIColors), (color, i) => (
           <>
           <HStack>
@@ -38,7 +38,7 @@ export const ColorSection = () => {
             style={{marginRight: 5}}
           />
           </HStack>
-                    {/* <Rectangle fill="red" frame={{ width: '100%', height: 1 }} style={{marginLeft: 10}} /> */}
+                    <Rectangle  fill="lightgray" frame={{ width: '100%', height: 1 }} style={{marginLeft: 10, top: 10}} />
                     </>
 				))}
 			</List>

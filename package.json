@@ -8,22 +8,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^52.0.0-canary-20240927-ab8a962",
-    "expo-splash-screen": "1.0.0-canary-20240927-ab8a962",
-    "expo-status-bar": "1.12.2-canary-20240927-ab8a962",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "react-native": "0.75.2",
+    "expo": "51.0.38",
+    "expo-splash-screen": "~0.27.6",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
     "react-native-sfsymbols": "^1.2.1",
     "react-native-web": "~0.19.10",
     "swiftui-react-native": "4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react": "~18.0.14",
+    "@types/react": "~18.2.79",
     "@types/react-native": "~0.70.6",
     "prettier": "^3.3.3",
-    "typescript": "^4.6.3"
+    "typescript": "~5.3.3"
   },
   "private": true
 }

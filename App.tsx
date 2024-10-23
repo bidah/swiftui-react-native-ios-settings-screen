@@ -46,15 +46,16 @@ const Examples = () => {
       />
       <ScrollView contentContainerStyle={styles.contentContainerStyle}>
         <Text padding={20} alignment="leading" font="title" bold>
-          SwiftUI React Native
+          SwiftUI React Native - iOS Settings Screen
         </Text>
-        <FontSection />
+        {/* Uncomment below to explore more of the SwiftUI React Native primitives */}
+        {/* <FontSection />
         <ButtonSection />
         <ControlSection />
         <TextFieldSection />
         <ProgressSection />
-        <ImageSection />
-        <StackSection />
+        <ImageSection /> */}
+        {/* <StackSection /> */}
         <ColorSection />
       </ScrollView>
     </View>

@@ -1,7 +1,6 @@
 import React from "react";
 import {
   List,
-  Text,
   HStack,
   VStack,
   type UIColor,
@@ -13,13 +12,12 @@ import {
   Rectangle,
 } from "swiftui-react-native";
 import { toWords } from "../utils";
-import { View } from "react-native";
 
 export const ColorSection = () => {
   const UIColors = useUIColor();
   return (
     <>
-      <List inset header="Header" style={{ paddingLeft: 30 }} hideSeparators>
+      <List inset header="header" style={{ paddingLeft: 30 }} hideSeparators>
         {ForEach(Object.keys(UIColors), (color, i) => (
           <>
             <HStack>
@@ -55,7 +53,6 @@ const Swatch = ({ color }: { color: UIColor }) => {
     <VStack
       frame={{ width: 26, height: 26, marginRight: 5 }}
       cornerRadius={6}
-      // border={{ width: 1, color: "systemGray5" }}
       backgroundColor={color}
     >
       <Image

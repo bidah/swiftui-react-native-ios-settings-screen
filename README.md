@@ -18,4 +18,4 @@ Follow Rodrigo Figueroa, creator of `uni-stack` and `react-native-vercel-ai` for
 
 ## Credits
 
-- [Andrew Levy](https://x.com/hugemathguy) creator of swift-ui-react-native [RN-AI](https://github.com/andrew-levy/swiftui-react-native)
+- [Andrew Levy](https://x.com/hugemathguy) creator of swift-ui-react-native 

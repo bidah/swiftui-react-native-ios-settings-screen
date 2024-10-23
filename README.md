@@ -1,4 +1,6 @@
-# SwiftUI React Native Example App
+# SwiftUI React Native Settings Screen
+
+<img src="https://i.imgur.com/7AR0XrJ.jpeg" alt="SwiftUI React Native Settings Screen">
 
 ## How to Run the App
 

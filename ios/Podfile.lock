@@ -1,19 +1,19 @@
 PODS:
   - boost (1.84.0)
   - DoubleConversion (1.1.6)
-  - EXConstants (17.0.0-canary-20240927-ab8a962):
+  - EXConstants (17.0.1):
     - ExpoModulesCore
-  - Expo (52.0.0-canary-20240927-ab8a962):
+  - Expo (52.0.0-preview.1):
     - ExpoModulesCore
-  - ExpoAsset (11.0.0-canary-20240927-ab8a962):
+  - ExpoAsset (11.0.0):
     - ExpoModulesCore
-  - ExpoFileSystem (18.0.0-canary-20240927-ab8a962):
+  - ExpoFileSystem (18.0.0):
     - ExpoModulesCore
-  - ExpoFont (13.0.0-canary-20240927-ab8a962):
+  - ExpoFont (13.0.0):
     - ExpoModulesCore
-  - ExpoKeepAwake (14.0.0-canary-20240927-ab8a962):
+  - ExpoKeepAwake (14.0.1):
     - ExpoModulesCore
-  - ExpoModulesCore (2.0.0-canary-20240927-ab8a962):
+  - ExpoModulesCore (2.0.0-preview.1):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1786,13 +1786,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: 4cb898d0bf20404aab1850c656dcea009429d6c1
   DoubleConversion: 76ab83afb40bddeeee456813d9c04f67f78771b5
-  EXConstants: 37118b5c6ed6c5beb6ad4476ca56ec8ef5be35ae
-  Expo: 3940dba3acea4ecd0baaf672a02a41cc3821ff09
-  ExpoAsset: 1c509ebedf5a60594c6eb253a3c9892bd656e287
-  ExpoFileSystem: 56f73fd9addd230564fc21324e265b4711e0c632
-  ExpoFont: aef0fea2ea7e260553ebbb81597d2f3a815444b0
-  ExpoKeepAwake: 04c9262b5adda1a8e39f6c91bb2c360d7358cf2b
-  ExpoModulesCore: 0f1624415b44c70bfcc85d82ef83003a4cb12ebb
+  EXConstants: c74958e9232c8c2a8d27537fc555253297ff7a3c
+  Expo: c2884243735806707b488e97bd39be1d41ae6861
+  ExpoAsset: 9de2f325e8c97a4c6c2bc85e507ae7f0809c91aa
+  ExpoFileSystem: d8b51caca86749a132c8ffde46be9a175e46b819
+  ExpoFont: 2fb6d98e0a5352bebcaa568d6bfbba0e0f2e0097
+  ExpoKeepAwake: 783e68647b969b210a786047c3daa7b753dcac1f
+  ExpoModulesCore: c6022ee2b1561fff4bee42ef3bf9c2eb89c21411
   EXSplashScreen: d67cbde7a635722b6a2df970fa7048128145419d
   FBLazyVector: 38bb611218305c3bc61803e287b8a81c6f63b619
   fmt: 4c2741a687cc09f0634a2e2c72a838b99f1ff120
